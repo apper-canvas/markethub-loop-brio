@@ -22,12 +22,22 @@ export const categoryService = {
     return { ...category }
   },
 
-  async getBySlug(slug) {
+async getBySlug(slug) {
     await delay(200)
     const category = categoriesData.find(cat => cat.slug === slug)
     if (!category) {
       throw new Error(`Category with slug ${slug} not found`)
     }
     return { ...category }
+  },
+
+  async getCategoryTree() {
+    await delay(250)
+    // Return hierarchical category structure
+    // In real app, this would come from database with parent-child relationships
+    return categoriesData.map(category => ({
+      ...category,
+      subcategories: [] // Placeholder for future subcategory support
+    }))
   }
 }

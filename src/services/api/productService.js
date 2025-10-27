@@ -68,12 +68,85 @@ export const productService = {
       .slice(0, 6)
   },
 
-  async search(query) {
+async search(query) {
     await delay(400)
     const lowercaseQuery = query.toLowerCase()
     return productsData.filter(product => 
       product.title.toLowerCase().includes(lowercaseQuery) ||
       product.tags?.some(tag => tag.toLowerCase().includes(lowercaseQuery))
     )
+  },
+
+  async getFiltered(options = {}) {
+    await delay(400)
+    const {
+      category = null,
+      brand = null,
+      minPrice = 0,
+      maxPrice = Infinity,
+      search = "",
+      sortBy = "relevance",
+      page = 1,
+      perPage = 24
+    } = options
+
+    let filtered = [...productsData]
+
+    // Category filter
+    if (category) {
+      filtered = filtered.filter(product => product.categoryId === category)
+    }
+
+    // Brand filter
+    if (brand) {
+      filtered = filtered.filter(product => product.brandId === brand)
+    }
+
+    // Price range filter
+    filtered = filtered.filter(product => 
+      product.price >= minPrice && product.price <= maxPrice
+    )
+
+    // Search filter
+    if (search) {
+      const lowercaseQuery = search.toLowerCase()
+      filtered = filtered.filter(product =>
+        product.title.toLowerCase().includes(lowercaseQuery) ||
+        product.tags?.some(tag => tag.toLowerCase().includes(lowercaseQuery))
+      )
+    }
+
+    // Sort
+    switch (sortBy) {
+      case "price-low":
+        filtered.sort((a, b) => a.price - b.price)
+        break
+      case "price-high":
+        filtered.sort((a, b) => b.price - a.price)
+        break
+      case "rating":
+        filtered.sort((a, b) => b.rating - a.rating)
+        break
+      case "newest":
+        filtered = filtered.filter(p => p.tags?.includes("new"))
+        break
+      default:
+        // Relevance - keep original order
+        break
+    }
+
+    // Pagination
+    const total = filtered.length
+    const start = (page - 1) * perPage
+    const end = start + perPage
+    const products = filtered.slice(start, end)
+
+    return {
+      products,
+      total,
+      page,
+      perPage,
+      totalPages: Math.ceil(total / perPage)
+    }
   }
 }

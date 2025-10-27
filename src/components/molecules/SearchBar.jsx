@@ -7,12 +7,12 @@ import { cn } from "@/utils/cn"
 
 const SearchBar = ({ className, placeholder = "Search products..." }) => {
   const [query, setQuery] = useState("")
-  const navigate = useNavigate()
+const navigate = useNavigate()
 
   const handleSubmit = (e) => {
     e.preventDefault()
     if (query.trim()) {
-      navigate(`/search?q=${encodeURIComponent(query.trim())}`)
+      navigate(`/products?search=${encodeURIComponent(query.trim())}`)
       setQuery("")
     }
   }

@@ -12,7 +12,7 @@ const AccountPage = lazy(() => import("@/components/pages/AccountPage"))
 const BrandPage = lazy(() => import("@/components/pages/BrandPage"))
 const DealsPage = lazy(() => import("@/components/pages/DealsPage"))
 const NotFound = lazy(() => import("@/components/pages/NotFound"))
-
+const ProductsPage = lazy(() => import("@/components/pages/ProductsPage"))
 const mainRoutes = [
   {
     path: "",
@@ -20,6 +20,14 @@ const mainRoutes = [
     element: (
       <Suspense fallback={<div>Loading.....</div>}>
         <Homepage />
+      </Suspense>
+    ),
+  },
+{
+    path: "products",
+    element: (
+      <Suspense fallback={<div>Loading.....</div>}>
+        <ProductsPage />
       </Suspense>
     ),
   },
