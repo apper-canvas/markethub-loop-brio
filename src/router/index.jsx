@@ -31,19 +31,11 @@ const mainRoutes = [
       </Suspense>
     ),
   },
-  {
+{
     path: "category/:slug",
     element: (
       <Suspense fallback={<div>Loading.....</div>}>
         <CategoryPage />
-      </Suspense>
-),
-  },
-  {
-    path: "category/:slug",
-    element: (
-      <Suspense fallback={<div>Loading.....</div>}>
-        {lazy(() => import("@/components/pages/CategoryPage"))()}
       </Suspense>
     ),
   },
