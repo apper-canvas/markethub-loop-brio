@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&h=500&fit=crop",
+    "mobileImageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop",
+    "headline": "Summer Sale Extravaganza",
+    "description": "Get up to 70% off on electronics, fashion, and home essentials",
+    "ctaText": "Shop Now",
+    "ctaLink": "/deals",
+    "order": 1
+  },
+  {
+    "Id": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&h=500&fit=crop",
+    "mobileImageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=400&fit=crop",
+    "headline": "New Collection Launch",
+    "description": "Discover the latest trends in fashion and lifestyle",
+    "ctaText": "Explore",
+    "ctaLink": "/category/fashion",
+    "order": 2
+  },
+  {
+    "Id": 3,
+    "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&h=500&fit=crop",
+    "mobileImageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=400&fit=crop",
+    "headline": "Tech Innovation Hub",
+    "description": "Cutting-edge gadgets and electronics at unbeatable prices",
+    "ctaText": "Browse Tech",
+    "ctaLink": "/category/electronics",
+    "order": 3
+  },
+  {
+    "Id": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&h=500&fit=crop",
+    "mobileImageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=400&fit=crop",
+    "headline": "Home Sweet Home",
+    "description": "Transform your space with our premium home collection",
+    "ctaText": "Shop Home",
+    "ctaLink": "/category/home-garden",
+    "order": 4
+  },
+  {
+    "Id": 5,
+    "imageUrl": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=1200&h=500&fit=crop",
+    "mobileImageUrl": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=800&h=400&fit=crop",
+    "headline": "Free Shipping Weekend",
+    "description": "Enjoy free shipping on all orders above $50",
+    "ctaText": "Start Shopping",
+    "ctaLink": "/",
+    "order": 5
+  }
+]

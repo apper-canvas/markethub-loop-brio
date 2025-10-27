@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "name": "Electronics",
+    "slug": "electronics",
+    "iconUrl": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=200&fit=crop",
+    "productCount": 1247,
+    "featured": true
+  },
+  {
+    "Id": 2,
+    "name": "Fashion",
+    "slug": "fashion",
+    "iconUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=300&h=200&fit=crop",
+    "productCount": 2156,
+    "featured": true
+  },
+  {
+    "Id": 3,
+    "name": "Home & Garden",
+    "slug": "home-garden",
+    "iconUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop",
+    "productCount": 892,
+    "featured": true
+  },
+  {
+    "Id": 4,
+    "name": "Sports",
+    "slug": "sports",
+    "iconUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop",
+    "productCount": 634,
+    "featured": true
+  },
+  {
+    "Id": 5,
+    "name": "Beauty",
+    "slug": "beauty",
+    "iconUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=200&fit=crop",
+    "productCount": 445,
+    "featured": true
+  },
+  {
+    "Id": 6,
+    "name": "Books",
+    "slug": "books",
+    "iconUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=200&fit=crop",
+    "productCount": 1789,
+    "featured": true
+  },
+  {
+    "Id": 7,
+    "name": "Automotive",
+    "slug": "automotive",
+    "iconUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=300&h=200&fit=crop",
+    "productCount": 523,
+    "featured": true
+  },
+  {
+    "Id": 8,
+    "name": "Toys & Games",
+    "slug": "toys-games",
+    "iconUrl": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=300&h=200&fit=crop",
+    "productCount": 756,
+    "featured": true
+  },
+  {
+    "Id": 9,
+    "name": "Health",
+    "slug": "health",
+    "iconUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop",
+    "productCount": 367,
+    "featured": true
+  },
+  {
+    "Id": 10,
+    "name": "Pet Supplies",
+    "slug": "pet-supplies",
+    "iconUrl": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=300&h=200&fit=crop",
+    "productCount": 289,
+    "featured": true
+  },
+  {
+    "Id": 11,
+    "name": "Baby",
+    "slug": "baby",
+    "iconUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop",
+    "productCount": 412,
+    "featured": true
+  },
+  {
+    "Id": 12,
+    "name": "Kitchen",
+    "slug": "kitchen",
+    "iconUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=80&h=80&fit=crop",
+    "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=200&fit=crop",
+    "productCount": 578,
+    "featured": true
+  }
+]
