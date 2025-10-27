@@ -1,0 +1,203 @@
+[
+  {
+    "Id": 1,
+    "productId": 1,
+    "reviewerName": "Sarah Johnson",
+    "rating": 5,
+    "title": "Excellent laptop for professional work",
+    "content": "I've been using this laptop for three months now and it's exceeded all my expectations. The build quality is outstanding, the screen is gorgeous with accurate colors, and the performance is incredible. Battery life easily gets me through a full work day. The keyboard is comfortable for long typing sessions. Highly recommend for anyone needing a powerful machine for creative work or development.",
+    "date": "2024-12-15",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+    ],
+    "helpfulCount": 47
+  },
+  {
+    "Id": 2,
+    "productId": 1,
+    "reviewerName": "Michael Chen",
+    "rating": 4,
+    "title": "Great performance but runs warm",
+    "content": "Overall very satisfied with this purchase. The laptop handles everything I throw at it - video editing, 3D rendering, multiple VMs. The only downside is it can get quite warm under heavy load. Not hot enough to be concerning, but noticeable. The fans do their job but can be a bit loud. Still, for the price and performance, it's a solid choice.",
+    "date": "2024-12-10",
+    "verifiedPurchase": true,
+    "images": [],
+    "helpfulCount": 32
+  },
+  {
+    "Id": 3,
+    "productId": 1,
+    "reviewerName": "Anonymous",
+    "rating": 5,
+    "title": "Best laptop I've ever owned",
+    "content": "This laptop has completely transformed my workflow. The screen quality is phenomenal, perfect for photo editing. The trackpad is super responsive and the speakers are surprisingly good. Build quality feels premium and solid. Would buy again without hesitation.",
+    "date": "2024-12-05",
+    "verifiedPurchase": false,
+    "images": [
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800"
+    ],
+    "helpfulCount": 28
+  },
+  {
+    "Id": 4,
+    "productId": 1,
+    "reviewerName": "Emily Rodriguez",
+    "rating": 4,
+    "title": "Solid choice for students",
+    "content": "As a computer science student, this laptop meets all my needs. Compiles code fast, runs IDEs smoothly, and battery life is good enough to last through classes. The keyboard is comfortable for coding sessions. Only wish it had more USB ports, but that's a minor complaint.",
+    "date": "2024-11-28",
+    "verifiedPurchase": true,
+    "images": [],
+    "helpfulCount": 19
+  },
+  {
+    "Id": 5,
+    "productId": 1,
+    "reviewerName": "David Park",
+    "rating": 5,
+    "title": "Perfect for creative professionals",
+    "content": "I use this for video editing and graphic design daily. The color accuracy is excellent, performance is top-notch, and it handles 4K video editing without breaking a sweat. The storage is fast and ample. Customer service was also great when I had questions about setup. Worth every penny.",
+    "date": "2024-11-20",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800",
+      "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+    ],
+    "helpfulCount": 51
+  },
+  {
+    "Id": 6,
+    "productId": 1,
+    "reviewerName": "Jessica Taylor",
+    "rating": 3,
+    "title": "Good but had some issues",
+    "content": "The laptop itself is great - fast, good screen, nice design. However, I had to return the first unit due to a faulty trackpad. The replacement works perfectly. Also, the price is a bit steep compared to competitors with similar specs. Still, happy with the purchase overall after the exchange.",
+    "date": "2024-11-15",
+    "verifiedPurchase": true,
+    "images": [],
+    "helpfulCount": 15
+  },
+  {
+    "Id": 7,
+    "productId": 1,
+    "reviewerName": "Robert Wilson",
+    "rating": 5,
+    "title": "Exceeded expectations",
+    "content": "I was hesitant about the price, but this laptop has proven worth every dollar. Build quality is exceptional, performance is flawless, and the battery life is impressive. The display is stunning - colors pop and text is crisp. Setup was easy and it came with minimal bloatware. Highly recommended!",
+    "date": "2024-11-08",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800"
+    ],
+    "helpfulCount": 43
+  },
+  {
+    "Id": 8,
+    "productId": 1,
+    "reviewerName": "Anonymous",
+    "rating": 4,
+    "title": "Great for everyday use",
+    "content": "Bought this for general use - browsing, email, streaming, light photo editing. It handles everything smoothly. Boot time is fast, apps launch quickly, and multitasking is no problem. The webcam quality is decent for video calls. Would give 5 stars but wish it had better speakers.",
+    "date": "2024-11-01",
+    "verifiedPurchase": false,
+    "images": [],
+    "helpfulCount": 12
+  },
+  {
+    "Id": 9,
+    "productId": 1,
+    "reviewerName": "Amanda Foster",
+    "rating": 5,
+    "title": "Best investment for remote work",
+    "content": "Working from home full-time, I needed something reliable and powerful. This laptop delivers on both fronts. Video calls are crystal clear, screen is easy on the eyes during long workdays, and performance never lags. The keyboard is quiet enough not to bother others in the house during calls. Absolutely love it.",
+    "date": "2024-10-25",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=800",
+      "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?w=800"
+    ],
+    "helpfulCount": 36
+  },
+  {
+    "Id": 10,
+    "productId": 1,
+    "reviewerName": "James Miller",
+    "rating": 4,
+    "title": "Powerful machine with minor quirks",
+    "content": "The performance is excellent for demanding tasks like CAD and simulation software. Screen real estate is perfect for multitasking. Build feels premium. The only issues are occasional wifi connectivity drops and the power adapter is quite bulky. Otherwise, very satisfied with the purchase.",
+    "date": "2024-10-18",
+    "verifiedPurchase": true,
+    "images": [],
+    "helpfulCount": 24
+  },
+  {
+    "Id": 11,
+    "productId": 1,
+    "reviewerName": "Lisa Anderson",
+    "rating": 5,
+    "title": "Perfect for designers",
+    "content": "As a UX/UI designer, color accuracy and screen quality are crucial. This laptop delivers beautifully. Running Figma, Adobe CC, and multiple browser tabs simultaneously with zero lag. The trackpad gestures work flawlessly. Storage is fast which makes working with large files a breeze. Could not be happier!",
+    "date": "2024-10-10",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800"
+    ],
+    "helpfulCount": 29
+  },
+  {
+    "Id": 12,
+    "productId": 1,
+    "reviewerName": "Anonymous",
+    "rating": 3,
+    "title": "Good but overpriced",
+    "content": "Don't get me wrong, it's a great laptop with solid performance and build quality. However, you can find similar specs for less money from other brands. The premium you pay is mainly for the brand name and design. If budget isn't a concern, go for it. Otherwise, consider alternatives.",
+    "date": "2024-10-05",
+    "verifiedPurchase": false,
+    "images": [],
+    "helpfulCount": 18
+  },
+  {
+    "Id": 13,
+    "productId": 1,
+    "reviewerName": "Kevin Brown",
+    "rating": 5,
+    "title": "Gaming performance surprised me",
+    "content": "Bought this primarily for work but decided to test some games. Was pleasantly surprised by the gaming performance! Handles AAA titles at high settings smoothly. The cooling system works well even during extended gaming sessions. It's not a dedicated gaming laptop, but performs admirably for casual gaming.",
+    "date": "2024-09-28",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=800",
+      "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=800"
+    ],
+    "helpfulCount": 41
+  },
+  {
+    "Id": 14,
+    "productId": 1,
+    "reviewerName": "Michelle Lee",
+    "rating": 4,
+    "title": "Great for business use",
+    "content": "Using this for business presentations and data analysis. Performance is smooth, battery life gets me through meetings all day, and the professional look is a plus. The display is excellent for showing charts and graphs. Security features are robust. Minor gripe: wish it had an SD card slot.",
+    "date": "2024-09-20",
+    "verifiedPurchase": true,
+    "images": [],
+    "helpfulCount": 16
+  },
+  {
+    "Id": 15,
+    "productId": 1,
+    "reviewerName": "Thomas Garcia",
+    "rating": 5,
+    "title": "Upgrade worth making",
+    "content": "Upgraded from a 5-year-old laptop and the difference is night and day. Everything is faster - boot time, app launches, file transfers. The screen is significantly better. Build quality feels premium. The keyboard and trackpad are leagues ahead. Wish I had upgraded sooner. Highly recommend for anyone considering an upgrade.",
+    "date": "2024-09-12",
+    "verifiedPurchase": true,
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800"
+    ],
+    "helpfulCount": 33
+  }
+]

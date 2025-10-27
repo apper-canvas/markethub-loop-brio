@@ -150,13 +150,23 @@ totalPages: Math.ceil(total / perPage)
     }
   },
 
-  async getBrandById(brandId) {
+async getBrandById(brandId) {
     await delay(200)
     try {
       const { brandService } = await import("@/services/api/brandService")
       return await brandService.getById(brandId)
     } catch (err) {
       throw new Error(`Brand with id ${brandId} not found`)
+    }
+  },
+
+  async getProductReviews(productId, options = {}) {
+    await delay(200)
+    try {
+      const { reviewService } = await import("@/services/api/reviewService")
+      return await reviewService.getByProductId(productId, options)
+    } catch (err) {
+      throw new Error(`Failed to load reviews for product ${productId}`)
     }
   }
 }
