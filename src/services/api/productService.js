@@ -146,7 +146,17 @@ async search(query) {
       total,
       page,
       perPage,
-      totalPages: Math.ceil(total / perPage)
+totalPages: Math.ceil(total / perPage)
+    }
+  },
+
+  async getBrandById(brandId) {
+    await delay(200)
+    try {
+      const { brandService } = await import("@/services/api/brandService")
+      return await brandService.getById(brandId)
+    } catch (err) {
+      throw new Error(`Brand with id ${brandId} not found`)
     }
   }
 }
